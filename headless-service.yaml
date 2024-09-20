@@ -5,7 +5,7 @@ metadata:
   namespace: spower
 spec:
   ports:
-    - port: 8090
-      targetPort: 8090
+    - port: 7317
+      targetPort: 7317
   selector:
     app: headless
