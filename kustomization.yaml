@@ -1,9 +1,12 @@
 namePrefix: kustomize-
 resources:
-- deployment.yaml
-- service.yaml
+  - headless-deployment.yaml
+  - headless-service.yaml
+  - api-pvc.yaml
+  - api-deployment.yaml
+  - api-service.yaml
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
-- name: minhdtb/spower-api
-  newTag: 4a99ef7d5ddfb6a3c9581840f6d636b7656aba14
+  - name: minhdtb/spower-api
+    newTag: 4a99ef7d5ddfb6a3c9581840f6d636b7656aba14
