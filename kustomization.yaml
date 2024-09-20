@@ -1,4 +1,4 @@
-namePrefix: kustomize-
+namePrefix: spower-
 resources:
   - headless-deployment.yaml
   - headless-service.yaml

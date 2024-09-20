@@ -22,6 +22,9 @@ spec:
           volumeMounts:
             - mountPath: /pb_data
               name: spower-data
+          env:
+            - name: HEADLESS_HOST
+              value: 'spower-headless.spower.svc.cluster.local'
       volumes:
         - name: spower-data
           persistentVolumeClaim:
