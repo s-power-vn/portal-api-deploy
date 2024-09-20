@@ -22,3 +22,8 @@ spec:
           volumeMounts:
             - mountPath: /pb_data
               name: spower-data
+      volumes:
+        - name: spower-data
+          persistentVolumeClaim:
+            claimName: spower-data
+
