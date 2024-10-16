@@ -24,7 +24,7 @@ spec:
               name: spower-data
           env:
             - name: HEADLESS_HOST
-              value: 'spower-headless.spower.svc.cluster.local'
+              value: '194.195.90.119'
       volumes:
         - name: spower-data
           persistentVolumeClaim:
