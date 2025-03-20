@@ -9,4 +9,4 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
 - name: minhdtb/spower-api
-  newTag: f6ccdbbbaa17f4ef8e0e43cb1cd83677c72d2e9e
+  newTag: 339b43f8b260e4d099efb29bb517395c5f583e81
